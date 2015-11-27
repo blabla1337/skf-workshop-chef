@@ -1,0 +1,15 @@
+<?hh
+
+require "/vagrant/www/xhp-lib/init.php";
+
+$hello = $_GET['name'];
+
+echo <html>
+    <head>
+        <title>{$hello}!</title>
+    </head>
+    <body>
+        <h1>{$hello}</h1>
+	<a href={$hello}>{$hello}</a>
+    </body>
+</html>;
