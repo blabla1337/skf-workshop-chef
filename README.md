@@ -1,18 +1,18 @@
 skf-workshop-chef Cookbook
 =====================
 This cookbook will install the OWASP-SKF workshop project + 
-With the help of a httpd webserver for providing fast performance and security (TLS).
+using HHVM to run PHP HACK with XHP
 
 Requirements
 ------------
-This cookbook is only designed for Centos7
+This cookbook is only designed for Ubuntu 12.04
 
 #### packages
-- `centos7` - owasp-skf workshop Cookbook needs centos7 to brown your bagel.
+- `Ubuntu 12.04` - owasp-skf workshop Cookbook needs centos7 to brown your bagel.
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
+TODO: List your cookbook attributes here. below is lorem ipsum
 
 e.g.
 #### owasp-skf::default
