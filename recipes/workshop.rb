@@ -106,5 +106,6 @@ end
 bash 'start owasp-skf flag' do
   code <<-EOH
     echo "1"  >> /vagrant/www/skf-workshop/first-run.txt
+    chmod 777 -R  /vagrant/www/
     EOH
 end
