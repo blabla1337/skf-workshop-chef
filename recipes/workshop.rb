@@ -29,6 +29,8 @@ bash 'install owasp-skf dep' do
     debconf-set-selections <<< 'mysql-server-5.5 mysql-server/root_password_again password root'
     apt-get install mysql-server -y --force-yes
     apt-get update
+    apt-get install php5-gd phpunit php5-xdebug 
+    pecl install vld-beta
 
     sudo rm /etc/nginx/sites-enabled/default
     sudo ln -s /etc/nginx/sites-available/nginx-fastcgi /etc/nginx/sites-enabled/nginx-fastcgi
